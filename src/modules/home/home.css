@@ -1,0 +1,43 @@
+
+html, body{
+	margin: 0;
+	padding: 0;
+}
+#header{
+	background-color: orange;
+	height: 80px;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	padding:8px;
+	border-bottom: 1px solid ;
+}
+#header .logo{	
+	width:150px;
+	height:50px;
+	/* background-image: url(./logo.png); */
+}
+#header .title{
+	background-color: brown;
+	font-size: x-large;
+	margin-top:4px;
+	display: block;
+	font-family: sans-serif;
+}
+button{
+	background-color: green;
+}
+.restaurant-card {
+	margin-bottom: 8px;
+	padding: 8px;
+	/* border: */
+	/* transition: 0.5s ease all; */
+	/* margin-top: */
+	/* opacity: 0; */		
+}
+.restaurant-card li{
+	background-color: green;	
+}
+.restaurant-card li::first {
+	background-color: purple;	
+}

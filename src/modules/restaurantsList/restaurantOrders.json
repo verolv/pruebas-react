@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "horaPedido":"21/09/21 - 11:00",
+        "horaEntrega": "21/09/21 - 14:00",
+        "detallePedido" : [
+            {
+                "key" : "primeros",
+                "plato" : "Plato B"
+            },
+            {
+                "key" : "segundos",
+                "plato" : "Plato A"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "horaPedido":"21/09/21 - 10:00",
+        "horaEntrega": "21/09/21 - 13:00",
+        "detallePedido" : [
+            {
+                "key" : "primeros",
+                "plato" : "Plato A"
+            },
+            {
+                "key" : "segundos",
+                "plato" : "Plato C"
+            }
+        ]
+    }
+]
